@@ -7,6 +7,125 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
     <style>
+        @media (max-width: 768px) {
+    header {
+        font-size: 22px;
+        padding: 15px 20px;
+    }
+    .container {
+        padding: 30px;
+    }
+    .profile-section {
+        flex-direction: column;
+        text-align: left;
+        gap: 30px;
+    }
+    .profile-img {
+        width: 100%;
+        max-width: 300px;
+    }
+    .content h1 {
+        font-size: 26px;
+    }
+    .content p {
+        font-size: 14px;
+    }
+  
+    .navbar {
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        padding: 15px 20px;
+    }
+    .navbar .logo {
+        font-size: 22px;
+        margin-right: auto;
+    }
+    .navbar ul {
+        flex-direction: row;
+        align-items: center;
+        padding: 0;
+    }
+    .navbar ul li {
+        margin: 0 10px;
+    }
+    .navbar ul li a {
+        display: flex;
+        align-items: center;
+    }
+    .navbar ul li a img {
+        width: 28px;
+        height: 28px;
+    }
+    .banner {
+        flex-direction: column;
+        text-align: center;
+        padding: 30px 15px;
+    }
+    .banner-content {
+        padding-left: 0;
+    }
+    .banner h1 {
+        font-size: 28px;
+    }
+    .banner p {
+        font-size: 16px;
+    }
+    .banner-image img {
+        width: 90px;
+        display: none;
+    }
+    .linkedin a {
+        font-size: 18px;
+        padding: 10px 20px;
+    }
+    .social-icons a {
+        font-size: 20px;
+        margin-left: 10px;
+    }
+    footer {
+        padding: 15px;
+        font-size: 14px;
+    }
+}
+@media (max-width: 768px) {
+    .details-section {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .details-section .left,
+    .details-section .right {
+        width: 100%;
+        padding: 0; /* Remove any extra padding */
+        margin: 0; /* Remove any extra margin */
+    }
+
+    .details-section h2 {
+        text-align: left;
+        margin-bottom: 10px; /* Ensure proper spacing */
+    }
+
+    .details-section ul {
+        padding: 0;
+        margin: 0;
+    }
+
+    .details-section li {
+        display: flex;
+        align-items: flex-start;
+        margin-bottom: 8px;
+        text-align: left;
+        width: 100%;
+    }
+
+    .linkedin {
+        margin-top: 10px;
+        width: 100%;
+    }
+}
+
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -88,6 +207,19 @@
         .details-section .left, .details-section .right {
             width: 48%;
         }
+        @media (max-width: 768px) {
+    .details-section .left, .details-section .right {
+        width: 100%;
+    }
+}
+@media (max-width: 768px) {
+    .linkedin a {
+        font-size: 18px;
+        margin-top: 16%;
+        padding: 10px 20px;
+    }
+}
+
         footer {
             background: #002244;
             color: #fff;
