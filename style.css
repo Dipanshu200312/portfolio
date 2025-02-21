@@ -101,7 +101,7 @@
     align-items: center;
     justify-content: center;
     text-align: center;
-    background: url('https://www.digitalsilk.com/wp-content/uploads/2022/10/about-hero-bg2.jpg') no-repeat center center/cover;
+    background: linear-gradient(to right, #2e1a66, #165a99, #4253b7, #0e326a);
     position: relative;
     padding: 11px;
 }
