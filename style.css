@@ -561,4 +561,19 @@
             color: #666;
         }
     }
-    
+    .team-member:hover .team-name,
+.team-member:hover .team-role {
+    animation: fadeInScale 0.5s ease-in-out;
+    color: #2c3c70; /* Change color on hover */
+}
+
+@keyframes fadeInScale {
+    from {
+        opacity: 0;
+        transform: translateY(-10px) scale(0.95);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0) scale(1);
+    }
+}
